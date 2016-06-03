@@ -1,0 +1,354 @@
+/*
+Theme Name: Serena Bartlett
+Them URI:
+Description: Designed by Serena Bartlett, programming by Daniel Laing
+Version: 1
+Author: Serena Bartlett / Daniel Laing
+Author URI: http://www.daniellaing.com/
+Tags: 
+*/
+
+body {
+background: #EFEFEF;
+color: #000000;
+font-family: Garamond;
+font-size: 17px;
+margin: 0;
+padding: 0;
+}
+
+h1, h2, h3, h4, p, ul, ol, li {
+margin: 0;
+padding: 0;
+}
+
+ul li {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+img {
+border: none;
+}
+
+#page {
+width: 1080px;
+margin: 0 auto;
+position: relative;
+}
+
+/*** Header ***/
+
+#header {
+width: 492px;
+height: 720px;
+position: absolute;
+top: 10px;
+left: 0;
+z-index: 2;
+}
+
+#header li {
+position: absolute;
+}
+
+#header a.logo {
+display: block;
+background: url(images/serena_bartlett.png) no-repeat 0 0 transparent;
+width: 294px;
+height: 0;
+padding: 28px 0 0;
+overflow: hidden;
+}
+
+#header ul.nav {
+background: url(images/nav_bg.png) no-repeat 0 0 transparent;
+width: 100%;
+min-height: 626px;
+margin: 10px 0 0 0;
+padding: 0;
+position: relative;
+}
+
+#header li img.title {
+position: absolute;
+}
+
+#header li#nav-serena {
+top: 3px;
+left: 3px;
+}
+
+#header li#nav-about {
+top: 5px;
+right: 75px;
+}
+
+#header li#nav-about img.title {
+top: -35px;
+left: 95px;
+}
+
+#header li#nav-tours {
+top: 108px;
+right: 3px;
+}
+
+#header li#nav-tours img.title {
+top: -35px;
+left: 65px;
+}
+
+#header li#nav-classes {
+top: 200px;
+right: 83px;
+}
+
+#header li#nav-classes img.title {
+top: 120px;
+left: 70px;
+}
+
+#header li#nav-writing {
+top: 310px;
+left: 171px;
+}
+
+#header li#nav-writing img.title {
+top: 135px;
+left: 125px;
+}
+
+#header li#nav-culinary {
+top: 486px;
+left: 99px;
+}
+
+#header li#nav-culinary img.title {
+top: 140px;
+left: -25px;
+}
+
+#header li#nav-books {
+top: 320px;
+left: 3px;
+}
+
+#header li#nav-books img.title {
+top: 130px;
+left: -10px;
+}
+
+#header li a {
+outline: none;
+}
+
+/*** Content ***/
+
+#content {
+background: url(images/content_bg.png) 0 0 no-repeat;
+width: 480px;
+height: 510px;
+padding: 45px 45px 110px 190px;
+position: absolute;
+top: 30px;
+right: 0;
+z-index: 1;
+}
+
+#content .title {
+text-align: right;
+height: 70px;
+width: 460px;
+height: 65px;
+position: relative;
+}
+
+#content .title img {
+float: right;
+margin-right: 10px;
+}
+
+#content .title .breadcrumbs {
+color: #333333;
+font-family: Georgia;
+font-size: 12px;
+font-style: italic;
+text-transform: lowercase;
+text-align: left;
+position: absolute;
+left: 15px;
+bottom: 5px;
+}
+
+#content .title .breadcrumbs a {
+color: #333333;
+}
+
+#content .title .breadcrumbs a:hover {
+color: #000000;
+text-decoration: underline;
+}
+
+#content .container_top {
+clear: both;
+background: url(images/container_top.png) no-repeat 0 0;
+width: 480px;
+height: 20px;
+}
+
+#content .container_bottom {
+clear: both;
+background: url(images/container_bottom.png) no-repeat 0 0;
+width: 480px;
+height: 20px;
+}
+
+#content .entry {
+background: #E4E4E4;
+line-height: 120%;
+width: 460px;
+height: 400px;
+padding: 2px 10px;
+overflow: auto;
+}
+
+#content .entry p {
+margin-bottom: 15px;
+}
+
+#content .entry ul, #content .entry ol {
+font-family: Arial;
+font-size: 14px;
+font-style: italic;
+line-height: 170%;
+margin-bottom: 15px;
+}
+
+#content .entry ol {
+padding-left: 15px;
+}
+
+#content .entry a {
+color: #0066FF;
+text-decoration: underline;
+}
+
+#content .entry a:hover {
+color: #000000;
+}
+
+#content .entry blockquote {
+color: #339900;
+font-size: 22px;
+font-weight: bold;
+margin: 0;
+padding: 0;
+}
+
+#content .entry img {
+border: 4px solid #FFFFFF;
+box-shadow: 0 0 4px #333333;
+-moz-box-shadow: 0 0 4px #333333;
+margin-bottom: 20px;
+}
+
+#content .entry .alignleft {
+margin-right: 20px;
+}
+
+#content .entry .alignright {
+margin-left: 20px;
+}
+
+#content .entry .aligncenter {
+display: block;
+margin: 0 auto;
+}
+
+#content .entry .wp-caption {
+margin-bottom: 20px;
+}
+
+#content .entry .wp-caption .img {
+margin-bottom: 5px;
+}
+
+#content .etnry .wp-caption-text {
+font-size: 12px;
+}
+
+#content .entry input[type=text] {
+font-size: 14px;
+height: 20px;
+padding: 2px;
+}
+
+#content .entry input[type=image] {
+vertical-align: middle;
+}
+
+/*** Images ***/
+
+.alignright {
+float: right;
+}
+
+.alignleft {
+float: left;
+}
+
+.aligncenter {
+margin: 0 auto;
+}
+
+/*** Social Media ***/
+
+.social-media {
+position: absolute;
+right: 30px;
+bottom: 45px;
+}
+
+.social-media > img {
+display: block;
+margin-bottom: 5px;
+}
+
+.social-media a.icon {
+margin-left: 5px;
+}
+
+/*** Scroll Pane ***/
+
+.jScrollPaneContainer {
+background: #E4E4E4 !important;
+width: 480px !important;
+}
+
+.jScrollPaneTrack {
+background: #CCCCCC !important;
+}
+
+.jScrollPaneDrag {
+background: url(images/scroller.png) 0 0 no-repeat  !important;
+}
+
+a.jScrollArrowUp {
+background: url(images/arrow_up.png) 0 0 no-repeat;
+height: 0 !important;
+padding-top: 17px;
+}
+
+a.jScrollArrowDown {
+background: url(images/arrow_down.png) 0 0 no-repeat;
+height: 0 !important;
+padding-top: 17px;
+}
+
+.jScrollPaneTrack {
+background-color: #CCCCCC !important;
+}
